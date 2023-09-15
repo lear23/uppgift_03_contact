@@ -17,61 +17,63 @@
 </head>
 
 <body>
+    <!-- header -->
 
-
-    <!-- HEADER -->
     <header>
         <div class="container">
-            <img src="images/Logo.svg" alt="crito logotype">
-            <i class="menu-bars fi fi-br-bars-staggered"></i>
-            <div class="menu">
-                <div class="top-menu">
-                    <div class="contact-information">
-                        <div class="contact-box">
-                            <i class="fi fi-rr-phone-call"></i>
-                            +46 (8) 121 470 50
-                        </div>
-                        <div class="contact-box">
-                            <i class="fi fi-rr-envelope-dot"></i>
-                            info@crito.com
-                        </div>
-                        <div class="contact-box last">
-                            <i class="fi fi-rs-marker"></i>
-                            Sveavägen 31, 111 34 STOCKHOLM
-                        </div>
-                    </div>
-                    <div class="social-media">
-                        <a href="https://www.facebook.com" target="_blank" rel="noopener"><i
-                                class="fi fi-brands-facebook"></i></a>
-                        <a href="https://www.twitter.com" target="_blank" rel="noopener"><i
-                                class="fi fi-brands-twitter"></i></a>
-                        <a href="https://www.instagram.com" target="_blank" rel="noopener"><i
-                                class="fi fi-brands-instagram"></i></a>
-                        <a href="https://www.linkedin.com" target="_blank" rel="noopener"><i
-                                class="fi fi-brands-linkedin"></i></a>
-                    </div>
+            <button class="btn-menubars"><i class=" fi fi-br-bars-staggered"></i></button>
+            <div class="logotype">
+                <a href="index.html">
+                    <img src="images/Logo.svg" alt="crito logotype">
+                </a>
+            </div>
+            <div class="contact-bar">
+                <div class="contact-box">
+                    <i class="fi fi-rr-phone-call"></i>
+                    +46 (8) 121 470 50
                 </div>
-                <div class="main-menu">
-                    <nav>
-                        <a class="home-bold" href="home.html">Home</a>
-                        <a href="service.html">Service</a>
-                        <a href="news.html">News</a>
-                        <a href="contact.html">Contact</a>
-                    </nav>
-                    <a class="btn-theme" href="login.html">Login<i class="mindre fi fi-br-arrow-up-right"></i></i></a>
+                <div class="contact-box">
+                    <i class="fi fi-rr-envelope-dot"></i>
+                    info@crito.com
+                </div>
+                <div class="contact-box last">
+                    <i class="fi fi-rs-marker"></i>
+                    Sveavägen 31, 111 34 STOCKHOLM
                 </div>
             </div>
-        </div>
-
-        <div class="lets-go">
-            <div class="midle">
-                <a href="home.html">Home</a>
-                <a href="contact.html">contact</a>
-                <h1>Let's Connect</h1>
+            <div class="social-media">
+                <a href="https://www.facebook.com" target="_blank" rel="noopener"><i
+                        class="fi fi-brands-facebook"></i></a>
+                <a href="https://www.twitter.com" target="_blank" rel="noopener"><i
+                        class="fi fi-brands-twitter"></i></a>
+                <a href="https://www.instagram.com" target="_blank" rel="noopener"><i
+                        class="fi fi-brands-instagram"></i></a>
+                <a href="https://www.linkedin.com" target="_blank" rel="noopener"><i
+                        class="fi fi-brands-linkedin"></i></a>
             </div>
-        </div>
+            <div class="mainmenu">
+                <nav>
+                    <a class="home-bold" href="home.html">Home</a>
+                    <a href="service.html">Service</a>
+                    <a href="news.html">News</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+                <div class="login">
+                    <a class="btn-theme" href="login.html">Login<i class="mindre fi fi-br-arrow-up-right"></i></a>
+                </div>
+            </div>
 
+        </div>
     </header>
+    <!-- <div class="container"> -->
+    <section class="subheader">
+        <a href="home.html">Home</a>
+        <a href="contact.html">contact</a>
+        <h2>Let's Connect</h2>
+        <div class="line">
+            <img src="images/Rectangle 607.png" alt="a line ">
+        </div>
+    </section>
     <main class="container-section">
         <section class="container">
 
@@ -91,7 +93,11 @@
                 <p>info@crito.com <br> support@crito.com</p>
             </div>
 
+
         </section>
+
+
+        <!-- förmuler section -->
 
         <form class="container" action="/my-handling-form-page" method="post">
 
@@ -101,16 +107,16 @@
                     <h3>Leave us a message <br> for any information</h3>
                 </li>
                 <li>
-                    <input type="text" required id="name" name="user_name" placeholder="Name*" />
+                    <input class="text" type="text" required id="name" name="user_name" placeholder="Name*" />
                 </li>
                 <li>
-                    <input type="email" required id="mail" name="user_mail" placeholder="Email*" />
+                    <input class="email" type="email" required id="mail" name="user_mail" placeholder="Email*" />
                 </li>
                 <li>
-                    <input class="textarea" type="text" required name="user_message" placeholder="Message*" />
+                    <input class="textarea" type="text" required name="user_message" placeholder="Your Message*" />
                 </li>
-                <li class="btn-theme-2">
-                    <a class="btn-theme-2" href="login.html">Send Message<i
+                <li class="btn-theme">
+                    <a class="btn-theme" href="login.html">Send Message<i
                             class="mindre fi fi-br-arrow-up-right"></i></i></a>
                 </li>
             </ul>
@@ -132,15 +138,16 @@
 
 
     <footer class=" footer">
+
         <div class="container">
-            <div class="link col-2">
-                <h4><img src="images/Logo-footer.svg" alt="logo"></h4>
-                <ul>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat obcaecati voluptas voluptates!
-                        Voluptates laborum nam ratione minus necessitatibus, iure praesentium.</p>
-                </ul>
+            <div class="link-1">
+                <a class="log" href=""><img src="images/Logo-footer.svg" alt="logo"></a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat obcaecati
+                    voluptas voluptates!
+                    Voluptates laborum nam ratione minus necessitatibus, iure praesentium.</p>
             </div>
-            <div class="link col-2">
+
+            <div class="link-2">
                 <h4>Company</h4>
                 <ul>
                     <li><a href="#">About</a></li>
@@ -150,7 +157,7 @@
                 </ul>
             </div>
 
-            <div class="link col-2">
+            <div class="link-3">
                 <h4>Help</h4>
                 <ul>
                     <li><a href="#">CustomerSupport</a></li>
@@ -159,7 +166,9 @@
                     <li><a href="#">Privacy Policy</a></li>
                 </ul>
             </div>
-            <div class="link col-2">
+
+
+            <div class="link-4 ">
                 <h4>Resources</h4>
                 <ul>
                     <li><a href="#">Free eBooks</a></li>
@@ -168,7 +177,7 @@
                     <li><a href="#">Youtube Playlist</a></li>
                 </ul>
             </div>
-            <div class="link col-2">
+            <div class="link-5">
                 <h4>Link</h4>
                 <ul>
                     <li><a href="#">Free eBooks</a></li>
@@ -177,12 +186,13 @@
                     <li><a href="#">Youtube Playlist</a></li>
                 </ul>
             </div>
+
         </div>
         <hr>
-        <div class="subfoot">
+        <div class="container subfoot">
 
             &copy; Crito - Consulting Company Inc All Rights Reserved.
-            <div>
+            <div class="foot-socialmedia">
                 <a href="https://www.facebook.com" target="_blank" rel="noopener"><i
                         class="fi fi-brands-facebook"></i></a>
                 <a href="https://www.twitter.com" target="_blank" rel="noopener"><i
@@ -194,6 +204,7 @@
             </div>
 
         </div>
+
     </footer>
 
 
