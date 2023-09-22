@@ -189,36 +189,43 @@ header .container .mainmenu .login {
 .container-section {
   display: flex;
   flex-direction: column;
-  gap: 30px;
 }
 .container-section .container {
   display: block;
   justify-content: center;
-  gap: 45px;
   margin-top: 20px;
 }
-@media (min-width: 600px) {
+@media (min-width: 680px) {
   .container-section .container {
     display: flex;
     margin-top: 120px;
+    gap: 45px;
   }
 }
 .container-section .container .box {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   width: 100%;
   height: auto;
   padding: 25px 20px;
   border: 1px solid #191919;
   text-align: center;
+  margin-bottom: 10px;
 }
 @media (min-width: 600px) {
   .container-section .container .box {
     display: flex;
+    margin: 20px;
   }
 }
+.container-section .container .box .h4 {
+  font-size: 22px;
+  font-family: "DM sans", sans-serif;
+  font-weight: 700;
+}
 .container-section .container .box p {
-  font-size: 12px;
+  font-size: 18px;
 }
 .container-section .container .box a {
   text-decoration: none;
@@ -226,19 +233,25 @@ header .container .mainmenu .login {
   color: #191919;
 }
 .container-section .container .box i {
-  font-size: 28px;
+  font-size: 45px;
+}
+.container-section .container .box:hover {
+  background-color: #f9d783;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  transform: scale(1.3);
 }
 .container-section form {
   width: 100%;
   height: auto;
-  margin-bottom: 0px;
-  margin-top: 0px;
+  margin-bottom: 20px;
+  margin-top: 30px;
   background-color: #F0EFE9;
 }
 @media (min-width: 992px) {
   .container-section form {
     margin-bottom: 110px;
-    margin-top: 30px;
     padding: 140px 145px 90px 150px;
   }
 }
@@ -298,6 +311,7 @@ header .container .mainmenu .login {
 
 .footer {
   background-color: #191919;
+  position: relative;
 }
 .footer .container {
   display: grid;
@@ -391,6 +405,17 @@ header .container .mainmenu .login {
 .footer .container .link-5 ul a {
   color: #b6b6bc;
   text-decoration: none;
+}
+.footer .line-footer {
+  display: none;
+  position: absolute;
+  bottom: 60px;
+  right: 0;
+}
+@media (min-width: 992px) {
+  .footer .line-footer {
+    display: flex;
+  }
 }
 .footer hr {
   color: #707070;
