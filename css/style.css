@@ -193,54 +193,96 @@ header .container .mainmenu .login {
 .container-section .container {
   display: block;
   justify-content: center;
-  margin-top: 20px;
+  align-items: center;
+  gap: 10px;
+  padding-top: 60px;
+  padding-bottom: 30px;
 }
-@media (min-width: 680px) {
+@media (min-width: 1100px) {
   .container-section .container {
     display: flex;
-    margin-top: 120px;
-    gap: 45px;
+    justify-content: center;
+    padding-top: 120px;
+    padding-bottom: 60px;
+    gap: 30px;
   }
 }
-.container-section .container .box {
-  display: flex;
-  flex-direction: column;
+.container-section .container .box1 {
+  display: block;
   justify-content: center;
-  width: 100%;
-  height: auto;
-  padding: 25px 20px;
-  border: 1px solid #191919;
+  gap: 30px;
   text-align: center;
-  margin-bottom: 10px;
+  border: 1px solid #e8e8e8;
+  margin-bottom: 30px;
+  padding-top: 20px;
 }
-@media (min-width: 600px) {
-  .container-section .container .box {
-    display: flex;
-    margin: 20px;
+@media (min-width: 992px) {
+  .container-section .container .box1 {
+    display: block;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    height: auto;
+    padding: 28px 50px;
   }
 }
-.container-section .container .box .h4 {
+@media (min-width: 1400px) {
+  .container-section .container .box1 {
+    display: block;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding: 50px 60px;
+  }
+}
+.container-section .container .box1 img {
+  float: none;
+  margin-bottom: 20px;
+}
+@media (min-width: 1200px) {
+  .container-section .container .box1 img {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 45px;
+  }
+}
+.container-section .container .box1 h2 {
   font-size: 22px;
-  font-family: "DM sans", sans-serif;
-  font-weight: 700;
+  font-weight: bold;
+  text-align: center;
 }
-.container-section .container .box p {
+@media (min-width: 1200px) {
+  .container-section .container .box1 h2 {
+    text-align: left;
+  }
+}
+.container-section .container .box1 a {
+  text-align: center;
   font-size: 18px;
-}
-.container-section .container .box a {
   text-decoration: none;
-  font-size: 12px;
+  color: #d1d1d1;
+}
+@media (min-width: 720px) {
+  .container-section .container .box1 a {
+    text-align: center;
+  }
+}
+@media (min-width: 1200px) {
+  .container-section .container .box1 a {
+    text-align: left;
+  }
+}
+.container-section .container .box1 a p {
   color: #191919;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
 }
-.container-section .container .box i {
-  font-size: 45px;
-}
-.container-section .container .box:hover {
+.container-section .container .box1:hover {
   background-color: #f9d783;
-  width: 100%;
-  height: auto;
-  margin: auto;
-  transform: scale(1.3);
+}
+.container-section .container .box1:hover p {
+  color: black;
 }
 .container-section form {
   width: 100%;
