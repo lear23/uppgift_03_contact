@@ -28,9 +28,10 @@ html, body{
     border: 1px solid #f9d783;
     color: #191919;
     text-decoration: none;
-    padding: 12px 26px;
-    font-weight: 600;
-    border-radius: 30px;
+    font-size: 16px;
+    padding: 12px 26px; 
+    font-weight: 600; 
+    border-radius: 30px; 
 
     i{
         margin-left: 8px;
@@ -335,91 +336,174 @@ header{
             
         }
     }
+    form {   
+               
+        width: 100%;
+        height: auto;
+        margin-bottom: 120px;
+        margin-top: 30px;
+        background-color: #F0EFE9;
+        
+    
+        ul{
+            width: 100%;
+            height: auto;
+            list-style: none;
+            padding: 25px 47px 10px 50px;
+            margin: 0px;
+            @media (min-width:768px) {
+                padding: 20px 147px 20px 150px;
+            }
+    
+            .title{ 
+                 
+                h2{
+                   font-size: 45px;
+                   font-weight: 700;
+                   font-family: 'DM Sans', sans-serif;
+                   text-align: center;
+                   margin-bottom: 20px;
+                }
+            }    
+    
+            .text-form{
+                    margin-bottom: 20px;
+                  
+                   
+                    input{
+                        width: 100%;
+                        font-family: 'DM Sans', sans-serif;
+                        background-color: white;
+                        border: none;
+                        padding: 15px;
+                        border-radius: 30px;
+                    }
+                }
+                textarea{
+                    width: 100%;
+                    height: auto;
+                    font-family: 'DM Sans', sans-serif;
+                    background-color: white;
+                    border: none;
+                    padding: 15px;
+                    border-radius: 30px;
+                    margin-bottom: 40px;
+             
+                }
+                .form-button{
+                    display: flex;
+                    text-align: center;
+                    width: 100%;
+                    height: auto;
+                   
+                    .btn-theme{
+                        width: 100%;
+                        height: auto;
+                        padding-top: 15px;
+                        padding-bottom: 15px;
+                    }
+                }
+            
+        }  
+    
+    
+    }
 
-            form {   
-                width: 100%;
-                height: auto;
-                margin-bottom: 20px;
-                margin-top: 30px;
-                background-color: #F0EFE9;
+   
+
+
+
+
+
+
+            // form {   
+               
+            //     width: 100%;
+            //     height: auto;
+            //     margin-bottom: 20px;
+            //     margin-top: 30px;
+            //     background-color: #F0EFE9;
               
                 
 
-                @media(min-width: 992px){
-                    margin-bottom: 110px;
+            //     @media(min-width: 992px){
+            //         margin-bottom: 110px;
                     
-                    padding: 140px 145px 90px 150px;
-                  }
+            //         padding: 140px 145px 90px 150px;
+            //       }
             
             
-            }
+            // }
             
-            ul {
-                list-style: none;
-                padding: 40px ;
-                margin: 0px;
+            // ul {
+            //     width: 100%;
+            //     list-style: none;
+            //     padding: 40px ;
+            //     margin: 0px;
 
-                h3{
-                    font-size: 45px;
-                    font-weight: 700;
-                    font-family: 'DM Sans', sans-serif;
-                    text-align: center;
-                }
-            }
+            //     h3{
+            //         font-size: 45px;
+            //         font-weight: 700;
+            //         font-family: 'DM Sans', sans-serif;
+            //         text-align: center;
+            //     }
+            // }
             
-            form li + li {
-                margin-top: 1rem;
+            // form li + li {
+                
+            //     margin-top: 1rem;
                
 
                 
 
-            }
-            .btn-theme{
-             
-                    // padding: 12px 17px;
-                    margin-top: 40px;
-                    text-align: center;
+            // }
+            // .btn-theme{             
+            //         text-align: center;
 
-                        @media (min-width:1200px) {
-                         
-                            padding: 12px 170px;
-                            
-                        
-                           
-                            
-                        }
+            //         @media (min-width:1200px){                         
+            //             padding: 12px 170px;                          
+                    
+            //       }  
+            //         a{
+            //           text-decoration: none;
+            //           color: #191919;
 
-                    }            
+            //           &:hover{
+                       
+            //             color: white;
+            //           }
+            //         }                                  
 
-            input,
-            textarea {       
+            //         }            
+
+            // input,
+            // textarea {       
             
-                font-family: 'DM Sans', sans-serif;
-                width: 100%;
-                box-sizing: border-box;
-                background-color: white;
-                border: none;
-                padding: 25px;
-                border-radius: 30px;
-            }
-            .textarea {
-                padding-bottom: 10em;
-            }
-            .text {
-                  padding: 25px;
-                  @media(min-width: 992px){
-                    padding: 10px;
-                  }
-            }
-            .email{
-                padding:25px;
-                @media(min-width: 992px){
-                    padding: 10px;
-                  }
-            }
-           
-     
-   
+            //     font-family: 'DM Sans', sans-serif;
+            //     width: 100%;
+            //     box-sizing: border-box;
+            //     background-color: white;
+            //     border: none;
+            //     padding: 25px;
+            //     border-radius: 30px;
+            // }
+            // .textarea {
+            //     padding-bottom: 10em;
+            // }
+            // .text {
+            //       padding: 25px;
+            //       @media(min-width: 992px){
+            //         padding: 10px;
+            //       }
+            // }
+            // .email{
+            //     padding:25px;
+            //     @media(min-width: 992px){
+            //         padding: 10px;
+            //       }
+            // }       
+            
+
 }
 
 
