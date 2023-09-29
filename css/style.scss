@@ -286,7 +286,7 @@ header{
                 float: none;           
                 margin-bottom: 20px;
     
-                @media (min-width:1200px) {
+                @media (min-width:1400px) {
                     float: left;
                     margin-right: 30px;
                     margin-bottom: 45px;
@@ -296,7 +296,7 @@ header{
                 font-size: 22px;
                 font-weight: bold;
                 text-align: center;
-                @media (min-width:1200px) {
+                @media (min-width:1400px) {
                     text-align: left;
                     
                 }
@@ -306,12 +306,9 @@ header{
                 font-size: 18px;
                 text-decoration: none;
                 color: #d1d1d1;
-                @media (min-width:720px) {
-                    text-align: center;
-                    
-                }
+            
     
-                @media (min-width:1200px) {
+                @media (min-width:1400px) {
                     text-align: left;
                     
                 }

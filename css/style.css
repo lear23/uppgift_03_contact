@@ -240,7 +240,7 @@ header .container .mainmenu .login {
   float: none;
   margin-bottom: 20px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
   .container-section .container .box1 img {
     float: left;
     margin-right: 30px;
@@ -252,7 +252,7 @@ header .container .mainmenu .login {
   font-weight: bold;
   text-align: center;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
   .container-section .container .box1 h2 {
     text-align: left;
   }
@@ -263,12 +263,7 @@ header .container .mainmenu .login {
   text-decoration: none;
   color: #d1d1d1;
 }
-@media (min-width: 720px) {
-  .container-section .container .box1 a {
-    text-align: center;
-  }
-}
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
   .container-section .container .box1 a {
     text-align: left;
   }
