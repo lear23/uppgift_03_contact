@@ -355,6 +355,7 @@ header .container .mainmenu .login {
   -moz-column-gap: 20px;
        column-gap: 20px;
   padding-left: 40px;
+  padding-top: 40px;
 }
 @media (min-width: 992px) {
   .footer .container {
