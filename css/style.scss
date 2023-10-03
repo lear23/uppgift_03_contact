@@ -306,6 +306,7 @@ header{
                 font-size: 18px;
                 text-decoration: none;
                 color: #d1d1d1;
+                // transition: all 2s ease-in-out;
             
     
                 @media (min-width:1400px) {
@@ -324,6 +325,7 @@ header{
     
             &:hover{
                 background-color: #f9d783;
+                box-shadow: 3px 3px 5px 5px #1919194e;
                  p{
                     color: black;
                  }
@@ -392,13 +394,19 @@ header{
                     text-align: center;
                     width: 100%;
                     height: auto;
-                   
+
+                    a{
+                        &:hover{
+                            box-shadow: 3px 3px 5px 5px #1919194d;
+                        }
+                    }                   
                     .btn-theme{
                         width: 100%;
                         height: auto;
                         padding-top: 15px;
                         padding-bottom: 15px;
                     }
+
                 }
             
         }  
@@ -406,100 +414,7 @@ header{
     
     }
 
-   
-
-
-
-
-
-
-            // form {   
                
-            //     width: 100%;
-            //     height: auto;
-            //     margin-bottom: 20px;
-            //     margin-top: 30px;
-            //     background-color: #F0EFE9;
-              
-                
-
-            //     @media(min-width: 992px){
-            //         margin-bottom: 110px;
-                    
-            //         padding: 140px 145px 90px 150px;
-            //       }
-            
-            
-            // }
-            
-            // ul {
-            //     width: 100%;
-            //     list-style: none;
-            //     padding: 40px ;
-            //     margin: 0px;
-
-            //     h3{
-            //         font-size: 45px;
-            //         font-weight: 700;
-            //         font-family: 'DM Sans', sans-serif;
-            //         text-align: center;
-            //     }
-            // }
-            
-            // form li + li {
-                
-            //     margin-top: 1rem;
-               
-
-                
-
-            // }
-            // .btn-theme{             
-            //         text-align: center;
-
-            //         @media (min-width:1200px){                         
-            //             padding: 12px 170px;                          
-                    
-            //       }  
-            //         a{
-            //           text-decoration: none;
-            //           color: #191919;
-
-            //           &:hover{
-                       
-            //             color: white;
-            //           }
-            //         }                                  
-
-            //         }            
-
-            // input,
-            // textarea {       
-            
-            //     font-family: 'DM Sans', sans-serif;
-            //     width: 100%;
-            //     box-sizing: border-box;
-            //     background-color: white;
-            //     border: none;
-            //     padding: 25px;
-            //     border-radius: 30px;
-            // }
-            // .textarea {
-            //     padding-bottom: 10em;
-            // }
-            // .text {
-            //       padding: 25px;
-            //       @media(min-width: 992px){
-            //         padding: 10px;
-            //       }
-            // }
-            // .email{
-            //     padding:25px;
-            //     @media(min-width: 992px){
-            //         padding: 10px;
-            //       }
-            // }       
-            
 
 }
 
@@ -514,46 +429,52 @@ header{
             .container{
                display:grid;
                grid-template-columns: repeat(2, 1fr);
+               justify-content: center;
                column-gap: 20px;
-               padding-left: 30px;
+               padding-left: 40px;
                
               
 
                @media(min-width:992px){
                    grid-template-columns: repeat(5, 1fr);
                    justify-content: space-between;
-                   column-gap: 60px;
+                   column-gap: 30px;
                    padding-top: 100px;
                    padding-bottom: 90px;
+                  
                   
 
                }
 
 
                .link-1{
-               
+                
+                 
+                 margin-left: 0;
                 
                 p{
+                    text-align:left;
                     margin-top: 25px;
                     color: #b6b6bc;
+
                 }                
                 
                }
                .link-2{
-               
+                    
+                   margin-left: 20px;
+                
                 h4{
                     color: white;
                     padding-top: 20px;
                     padding-bottom: 20px;
-                    text-align: left;
-                }
-                p{
-                    color: #b6b6bc;
-                    text-align: left;
-
+                    text-align:left;
+                 
                 }
 
                 ul {
+                    text-align:justify;
+                    line-height: 2.5;
                     list-style: none;
                     padding: 0px;
                    
@@ -574,13 +495,11 @@ header{
                     padding-bottom: 20px;
                     text-align: left;
                 }
-                p{
-                    color: #b6b6bc;
-                    text-align: left;
-
-                }
+             
 
                 ul {
+                    text-align:justify;
+                    line-height: 2.5;
                     list-style: none;
                     padding: 0px;
                    
@@ -594,20 +513,17 @@ header{
                  
                }
                .link-4{
-                
-                h4{
+                    
+                h4{ 
                     color: white;
                     padding-top: 20px;
                     padding-bottom: 20px;
                     text-align: left;
                   }
-                  p{
-                    color: #b6b6bc;
-                    text-align: left;
-
-                }
 
                 ul {
+                    text-align:justify;
+                    line-height: 2.5;
                     list-style: none;
                     padding: 0px;
                    
@@ -621,7 +537,8 @@ header{
                 }
                 .link-5{
                
-
+                    text-align:justify;
+                    line-height: 2.5;
                 h4{
                      color: white;
                      padding-top: 20px;

@@ -276,6 +276,7 @@ header .container .mainmenu .login {
 }
 .container-section .container .box1:hover {
   background-color: #f9d783;
+  box-shadow: 3px 3px 5px 5px rgba(25, 25, 25, 0.3058823529);
 }
 .container-section .container .box1:hover p {
   color: black;
@@ -333,6 +334,9 @@ header .container .mainmenu .login {
   width: 100%;
   height: auto;
 }
+.container-section form ul .form-button a:hover {
+  box-shadow: 3px 3px 5px 5px rgba(25, 25, 25, 0.3019607843);
+}
 .container-section form ul .form-button .btn-theme {
   width: 100%;
   height: auto;
@@ -347,23 +351,31 @@ header .container .mainmenu .login {
 .footer .container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
   -moz-column-gap: 20px;
        column-gap: 20px;
-  padding-left: 30px;
+  padding-left: 40px;
 }
 @media (min-width: 992px) {
   .footer .container {
     grid-template-columns: repeat(5, 1fr);
     justify-content: space-between;
-    -moz-column-gap: 60px;
-         column-gap: 60px;
+    -moz-column-gap: 30px;
+         column-gap: 30px;
     padding-top: 100px;
     padding-bottom: 90px;
   }
 }
+.footer .container .link-1 {
+  margin-left: 0;
+}
 .footer .container .link-1 p {
+  text-align: left;
   margin-top: 25px;
   color: #b6b6bc;
+}
+.footer .container .link-2 {
+  margin-left: 20px;
 }
 .footer .container .link-2 h4 {
   color: white;
@@ -371,11 +383,9 @@ header .container .mainmenu .login {
   padding-bottom: 20px;
   text-align: left;
 }
-.footer .container .link-2 p {
-  color: #b6b6bc;
-  text-align: left;
-}
 .footer .container .link-2 ul {
+  text-align: justify;
+  line-height: 2.5;
   list-style: none;
   padding: 0px;
 }
@@ -389,11 +399,9 @@ header .container .mainmenu .login {
   padding-bottom: 20px;
   text-align: left;
 }
-.footer .container .link-3 p {
-  color: #b6b6bc;
-  text-align: left;
-}
 .footer .container .link-3 ul {
+  text-align: justify;
+  line-height: 2.5;
   list-style: none;
   padding: 0px;
 }
@@ -407,17 +415,19 @@ header .container .mainmenu .login {
   padding-bottom: 20px;
   text-align: left;
 }
-.footer .container .link-4 p {
-  color: #b6b6bc;
-  text-align: left;
-}
 .footer .container .link-4 ul {
+  text-align: justify;
+  line-height: 2.5;
   list-style: none;
   padding: 0px;
 }
 .footer .container .link-4 ul a {
   color: #b6b6bc;
   text-decoration: none;
+}
+.footer .container .link-5 {
+  text-align: justify;
+  line-height: 2.5;
 }
 .footer .container .link-5 h4 {
   color: white;
